@@ -1,0 +1,27 @@
+:root {
+    --acc1: #a07;
+    --acc2: #fcd;
+    --acc3: #301;
+    --wht: #fff;
+    --dkgry: #111;
+    --blk: #000
+  }
+  body {background:#111;margin:50px;}
+    .hdr {width:80%;margin:auto;border-top-left-radius:150px;border-top-right-radius:150px;background:var(--acc3);border-top:3px double var(--acc1);border-left:3px double var(--acc1);border-right:3px double var(--acc1);text-align:center;font-size:3em;color:var(--wht);padding:5px;text-transform:uppercase;text-shadow:1px 1px 2px var(--acc1), 1px -1px 2px var(--acc1), -1px -1px 2px var(--acc1), -1px 1px 2px var(--acc1);font-family:'Nova Cut', cursive;font-style:italic;}
+    .hdr b {font-size: .5em;font-weight:bold;font-style:normal;}
+    .bnr {background:var(--acc1);width:80%;height:50px;display:block;margin:auto;border-left: 8px double var(--acc1);border-right:8px double var(--acc1);border-top: 3px solid var(--acc1);border-bottom:3px solid var(--acc1);}
+    .bnroverlay {background:rgba(0,0,0,.5); width:100%;height:50px;}
+    .sheetbox {width:80%;padding:5px;border-left:3px solid var(--acc1);border-right:3px solid var(--acc1);margin:auto;border-bottom:3px solid var(--acc1);background:url("https://energyart.uk/images/backgrounds/rice-paper/ricepaper-black.jpg");}
+    .content-box {width:80%;margin:auto;border:3px solid var(--acc1);color:var(--acc2);font-family:'Sen', sans-serif;margin-top:30px;padding:15px;background:var(--dkgry);border-radius:25px;}
+    h1 {font-size:1.5em;color:var(--wht);text-align:center;font-family:'Nova Cut';line-height:60%;text-transform:uppercase;}
+    table {width:90%;margin:auto;}
+    td {text-align:justify;color:var(--acc2);font-style:italic;vertical-align:top; padding:10px;}
+    td b {text-transform:uppercase;color:var(--wht);font-style:normal;vertical-align:top;}
+    .cntr {text-align:center;}
+    hr { display: block;height: 1px;border: 0;border-top: 1px solid var(--acc1);margin: 1em 0;padding: 0;}
+    .portrait {margin:auto;max-width:70%;border-radius:100px;border:3px solid var(--acc1);display:block;margin-top:30px;box-shadow:5px 5px 10px var(--blk);background:var(--blk);}
+    .thirds {width:30%;padding:15px;}
+    .sixths-lbl {width: 10%;}
+    .sixths {width:15%;}
+    .sixths-long {width: 25%;}
+    .half {width:50%;}

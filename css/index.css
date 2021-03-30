@@ -1,0 +1,7 @@
+body {background: #444;font-family:'arial narrow',serif;font-size:1em;color:#ddd;}
+.navcontainer {width:60%;background:#222;height:53px;margin:auto;}
+.navbar {background:#222;min-height:53px;max-width:100%;min-width:0%;}
+.navbar a {text-transform:lowercase;font-size:1.2em;color:#ccc;font-family:tahoma,serif;text-shadow:1px 1px 1px #111;text-decoration:none;padding:15px;min-width:50px;letter-spacing:4px;display:inline-block;text-align:center;margin:auto;}
+.navbar a:hover {font-weight:bold;color:#222;text-shadow:#eee 1px 1px 1px, #eee -1px -1px 1px;letter-spacing:2px;}
+.navbar a.active {background:#333;}
+.banner {width:60%;background-image:url("https://images.pexels.com/photos/753575/pexels-photo-753575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");box-shadow:inset #444 0px 0px 100px;min-height:200px;margin:auto;border:#444 20px solid;}
